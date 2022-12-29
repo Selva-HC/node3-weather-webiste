@@ -6,7 +6,7 @@ const forecast= require ('./utils/forecast')
 
 const app = express()
 
-//Define paths for Express config
+//Define paths for Express config - CHECK GIT CHANGES
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
